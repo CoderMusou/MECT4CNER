@@ -1,0 +1,4 @@
+fitlog==0.3.2
+torch==1.5.1+cu101
+FastNLP==0.5.0
+numpy==1.18.5
