@@ -29,7 +29,7 @@ If you want to use our codes in your research, please cite:
 ## Environment Requirement
 The code has been tested under Python 3.7. The required packages are as follows:
 ```
-torch==1.5.1+cu101
+torch==1.5.1
 numpy==1.18.5
 FastNLP==0.5.0
 fitlog==0.3.2
@@ -49,22 +49,22 @@ you can click [here](https://fastnlp.readthedocs.io/zh/latest/) to know more abo
 4. Run following commands
     * Weibo dataset
     ```shell
-    python Utils/paths.py
+    python Utils/preprocess.py
     python main.py --dataset weibo
     ```
     * Resume dataset
     ```shell
-    python Utils/paths.py
+    python Utils/preprocess.py
     python main.py --dataset resume
     ```
     * Ontonotes dataset
     ```shell
-    python Utils/paths.py
+    python Utils/preprocess.py
     python main.py --dataset ontonotes
     ```
     * MSRA dataset
     ```shell
-    python Utils/paths.py --clip_msra
+    python Utils/preprocess.py --clip_msra
     python main.py --dataset msra
     ```
 
